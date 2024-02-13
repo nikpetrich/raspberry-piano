@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Raspberry Piano</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="keys-container">
+      <div class="keys-container-low-sonds">
+        <div data-key="81" class="key">
+          <kbd>Q</kbd>
+          <span class="sound">C</span>
+        </div>
+        <div data-key="50" class="key">
+          <kbd>2</kbd>
+          <span class="sound">Cis</span>
+        </div>
+        <div data-key="87" class="key">
+          <kbd>W</kbd>
+          <span class="sound">D</span>
+        </div>
+        <div data-key="51" class="key">
+          <kbd>3</kbd>
+          <span class="sound">Dis</span>
+        </div>
+        <div data-key="69" class="key">
+          <kbd>E</kbd>
+          <span class="sound">E</span>
+        </div>
+        <div data-key="82" class="key">
+          <kbd>R</kbd>
+          <span class="sound">F</span>
+        </div>
+        <div data-key="53" class="key">
+          <kbd>5</kbd>
+          <span class="sound">Fis</span>
+        </div>
+        <div data-key="84" class="key">
+          <kbd>T</kbd>
+          <span class="sound">G</span>
+        </div>
+        <div data-key="54" class="key">
+          <kbd>6</kbd>
+          <span class="sound">Gis</span>
+        </div>
+        <div data-key="90" class="key">
+          <kbd>Z</kbd>
+          <span class="sound">A</span>
+        </div>
+        <div data-key="55" class="key">
+          <kbd>7</kbd>
+          <span class="sound">Ais</span>
+        </div>
+        <div data-key="85" class="key">
+          <kbd>U</kbd>
+          <span class="sound">H</span>
+        </div>
+      </div>
+      <div class="keys-container-high-sonds">
+        <div data-key="86" class="key">
+          <kbd>V</kbd>
+          <span class="sound">C</span>
+        </div>
+        <div data-key="71" class="key">
+          <kbd>G</kbd>
+          <span class="sound">Cis</span>
+        </div>
+        <div data-key="66" class="key">
+          <kbd>B</kbd>
+          <span class="sound">D</span>
+        </div>
+        <div data-key="72" class="key">
+          <kbd>H</kbd>
+          <span class="sound">Dis</span>
+        </div>
+        <div data-key="78" class="key">
+          <kbd>N</kbd>
+          <span class="sound">E</span>
+        </div>
+        <div data-key="77" class="key">
+          <kbd>M</kbd>
+          <span class="sound">F</span>
+        </div>
+        <div data-key="75" class="key">
+          <kbd>K</kbd>
+          <span class="sound">Fis</span>
+        </div>
+        <div data-key="188" class="key">
+          <kbd>;</kbd>
+          <span class="sound">G</span>
+        </div>
+        <div data-key="76" class="key">
+          <kbd>L</kbd>
+          <span class="sound">Gis</span>
+        </div>
+        <div data-key="190" class="key">
+          <kbd>:</kbd>
+          <span class="sound">A</span>
+        </div>
+        <div data-key="192" class="key">
+          <kbd>Ö</kbd>
+          <span class="sound">Ais</span>
+        </div>
+        <div data-key="189" class="key">
+          <kbd>_</kbd>
+          <span class="sound">H</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Low pitch -->
+    <audio data-key="81" src="sounds/C.m4a"></audio>
+    <audio data-key="50" src="sounds/Cis.m4a"></audio>
+    <audio data-key="87" src="sounds/D.m4a"></audio>
+    <audio data-key="51" src="sounds/Dis.m4a"></audio>
+    <audio data-key="69" src="sounds/E.m4a"></audio>
+    <audio data-key="82" src="sounds/F.m4a"></audio>
+    <audio data-key="53" src="sounds/Fis.m4a"></audio>
+    <audio data-key="84" src="sounds/G.m4a"></audio>
+    <audio data-key="54" src="sounds/Gis.m4a"></audio>
+    <audio data-key="90" src="sounds/A.m4a"></audio>
+    <audio data-key="55" src="sounds/Ais.m4a"></audio>
+    <audio data-key="85" src="sounds/H.m4a"></audio>
+
+    <!-- High pitch -->
+    <audio data-key="86" src="sounds/C_.m4a"></audio>
+    <audio data-key="71" src="sounds/Cis_.m4a"></audio>
+    <audio data-key="66" src="sounds/D_.m4a"></audio>
+    <audio data-key="72" src="sounds/Dis_.m4a"></audio>
+    <audio data-key="78" src="sounds/E_.m4a"></audio>
+    <audio data-key="77" src="sounds/F_.m4a"></audio>
+    <audio data-key="75" src="sounds/Fis_.m4a"></audio>
+    <audio data-key="188" src="sounds/G_.m4a"></audio>
+    <audio data-key="76" src="sounds/Gis_.m4a"></audio>
+    <audio data-key="190" src="sounds/A_.m4a"></audio>
+    <audio data-key="192" src="sounds/Ais_.m4a"></audio>
+    <audio data-key="189" src="sounds/H_.m4a"></audio>
+
+    <script src="script.js"></script>
+  </body>
+</html>
